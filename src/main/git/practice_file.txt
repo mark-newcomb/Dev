@@ -6,3 +6,9 @@ Here is more text
 Space and more text
 1. Everything above is commit #1
 
+Here is some more text
+Additional text
+Hello
+There
+2. All above is from commit 2
+

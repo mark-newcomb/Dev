@@ -13,5 +13,11 @@
 - git diff --cached ( display diff for changes staged )
 - git restore --source HEAD~2 <filename> ( Reverts changes for a file back 2 commits, so the 2nd from HEAD will be changes )
 - git merge ( merge branches )
-- git rebase
+- git rebase ( similar to merge but allows adding a branch on top of another, like changes on main, dev can pull those forward and merge main changes to dev to allow it to work with up to date main changes )
+- git clone
+- git fetch, pull
+- git push
+- git revert ???????????????????
+- git config
+- git log/show ( options will show history in different formats )
 - 

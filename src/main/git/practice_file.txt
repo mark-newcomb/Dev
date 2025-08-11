@@ -7,3 +7,5 @@ Space and more text
 1. Everything above is commit #1
 
 2. Right before rebase. 
+Here are some changes before rebase
+

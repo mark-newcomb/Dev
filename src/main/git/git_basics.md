@@ -11,7 +11,7 @@
 - git reset --soft ( clear staged changes )
 - git reset --cached
 - git diff --cached ( display diff for changes staged )
-- git restore
-- git merge
+- git restore --source HEAD~2 <filename> ( Reverts changes for a file back 2 commits, so the 2nd from HEAD will be changes )
+- git merge ( merge branches )
 - git rebase
 - 

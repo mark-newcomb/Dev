@@ -11,3 +11,5 @@ Here are some changes before rebase
 
 3. Content for stashing exercise
 
+4. New changes to fix with stashing
+

@@ -13,9 +13,5 @@ Here are some changes before rebase
 
 4. New changes to fix with stashing
 
-5. New changes to squash
-
-6. More changes to squash on test
-
-7. More squash changes on another commit
+5. More squash changes on another commit
 

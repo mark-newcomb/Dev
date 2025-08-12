@@ -10,7 +10,7 @@
 - git branch -D <branch name> ( deletes branch )
 - git reset --soft ( clear staged changes )
 - git reset --cached
-- git diff --cached ( display diff for changes staged )
+- git diff or git diff --staged or --cached ( display diff for changes staged )
 - git restore --source HEAD~2 <filename> ( Reverts changes for a file back 2 commits, so the 2nd from HEAD will be changes )
 - git merge ( merge branches )
 - git rebase ( similar to merge but allows adding a branch on top of another, like changes on main, dev can pull those forward and merge main changes to dev to allow it to work with up to date main changes )
@@ -19,5 +19,5 @@
 - git push
 - git revert ???????????????????
 - git config
-- git log/show ( options will show history in different formats )
+- git log/show --oneline ( options will show history in different formats )
 - 

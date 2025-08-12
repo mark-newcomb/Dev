@@ -17,3 +17,5 @@ Here are some changes before rebase
 
 6. More changes to squash on test
 
+7. More squash changes on another commit
+

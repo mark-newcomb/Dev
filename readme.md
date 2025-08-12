@@ -18,4 +18,5 @@
 - Kubernetes ( Docs )
 - MicroPython ( Docs )
 - Networking and Server Types
+- Django ( W3 Schools )
 

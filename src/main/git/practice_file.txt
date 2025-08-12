@@ -9,3 +9,5 @@ Space and more text
 2. Right before rebase. 
 Here are some changes before rebase
 
+3. Content for stashing exercise
+

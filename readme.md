@@ -1,16 +1,13 @@
 # Development
 
 ## Topics
-- Git ( Git SCM )
-- Linux ( Linux Journey )
-- Bash ( W3 Schools )
-- Python ( W3 Schools )
-- PowerShell ( Microsoft Learn )
-- PyTest ( Docs and Microsoft Learn )
 - PyBuilder ( Docs )
-- Docker ( Docker Curriculum )
+- PyTest ( Docs and Tutorials Point )
 - Jenkins ( Docs )
+- Docker ( Docker Curriculum )
+- PowerShell ( Microsoft Learn )
 - Ansible ( Docs )
+- Python ( W3 Schools )
 - PostgreSQL ( Docs )
 - AWS ( Docs )
 - Monitoring Promtetheus ( Docs )
@@ -20,3 +17,7 @@
 - Networking and Server Types
 - Django ( W3 Schools )
 
+### Topics Studied
+- Git
+- Linux
+- Bash

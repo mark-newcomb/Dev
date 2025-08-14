@@ -33,6 +33,9 @@ for key,value in family_members.items():
 random_num = random.randrange(0,100)
 print(f"Random number is {random_num}")
 
+def add_nums(a, b):
+    return a + b
+
 def main():
     print("Hello, world!")
 

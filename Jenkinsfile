@@ -1,21 +1,42 @@
-pipeline {
-    agent any
+// pipeline {
+//     agent any
+//
+//     stages {
+//         stage('Build') {
+//             steps {
+//                 echo 'Building..'
+//             }
+//         }
+//         stage('Test') {
+//             steps {
+//                 echo 'Testing..'
+//             }
+//         }
+//         stage('Deploy') {
+//             steps {
+//                 echo 'Deploying....'
+//             }
+//         }
+//     }
+// }
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
+        pipeline {
+            agent any
+            stages {
+                stage('Checkout') {
+                    steps {
+                        git 'https://www.github.com/mark-newcomb/Dev' // Replace with your repo URL
+                    }
+                }
+                stage('Build with PyBuilder') {
+                    steps {
+                        sh '''
+                            virtualenv venv
+                            source venv/bin/activate
+                            pip install pybuilder
+                            pyb
+                        '''
+                    }
+                }
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-}

@@ -1,0 +1,35 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.macosx-10.13-universal2' does not exist -- can't clean it
+'build/scripts-3.13' does not exist -- can't clean it
+running sdist
+running egg_info
+creating pybuilder_project.egg-info
+writing pybuilder_project.egg-info/PKG-INFO
+writing dependency_links to pybuilder_project.egg-info/dependency_links.txt
+writing namespace_packages to pybuilder_project.egg-info/namespace_packages.txt
+writing top-level names to pybuilder_project.egg-info/top_level.txt
+writing manifest file 'pybuilder_project.egg-info/SOURCES.txt'
+reading manifest file 'pybuilder_project.egg-info/SOURCES.txt'
+writing manifest file 'pybuilder_project.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating pybuilder_project-1.0.dev0
+creating pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying files to pybuilder_project-1.0.dev0...
+copying __init__.py -> pybuilder_project-1.0.dev0
+copying main_dev.py -> pybuilder_project-1.0.dev0
+copying setup.py -> pybuilder_project-1.0.dev0
+copying pybuilder_project.egg-info/PKG-INFO -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/SOURCES.txt -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/dependency_links.txt -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/namespace_packages.txt -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/top_level.txt -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/zip-safe -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+copying pybuilder_project.egg-info/SOURCES.txt -> pybuilder_project-1.0.dev0/pybuilder_project.egg-info
+Writing pybuilder_project-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'pybuilder_project-1.0.dev0' (and everything under it)

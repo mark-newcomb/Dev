@@ -1,13 +1,7 @@
 # Development
 
 ## Topics
-- PyBuilder ( Docs )
-- PyTest ( Docs and Tutorials Point )
-- Jenkins ( Docs )
-- Docker ( Docker Curriculum )
 - PowerShell ( Microsoft Learn )
-- Ansible ( Docs )
-- Python ( W3 Schools )
 - PostgreSQL ( Docs )
 - AWS ( Docs )
 - Monitoring Promtetheus ( Docs )
@@ -21,3 +15,9 @@
 - Git
 - Linux
 - Bash
+- Pybuilder
+- Pytest
+- Jenkins
+- Python
+- Ansible
+- Docker

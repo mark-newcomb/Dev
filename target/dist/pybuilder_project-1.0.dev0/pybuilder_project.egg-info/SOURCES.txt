@@ -1,0 +1,9 @@
+__init__.py
+main_dev.py
+setup.py
+pybuilder_project.egg-info/PKG-INFO
+pybuilder_project.egg-info/SOURCES.txt
+pybuilder_project.egg-info/dependency_links.txt
+pybuilder_project.egg-info/namespace_packages.txt
+pybuilder_project.egg-info/top_level.txt
+pybuilder_project.egg-info/zip-safe

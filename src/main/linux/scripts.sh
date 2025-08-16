@@ -62,3 +62,4 @@ for i in {1..5}; do
   echo $i
 done
 
+# untar tar file - tar -xzf <tar ball name>

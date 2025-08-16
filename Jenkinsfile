@@ -31,7 +31,7 @@
                 stage('Build with PyBuilder') {
                     steps {
                         sh '''
-                            virtualenv venv
+                            python3 -m venv pybuilder_env
                             source venv/bin/activate
                             pip install pybuilder
                             pyb

@@ -32,7 +32,7 @@
                     steps {
                         sh '''
                             python3 -m venv pybuilder_env
-                            source venv/bin/activate
+                            source pybuilder_env/bin/activate
                             pip install pybuilder
                             pyb
                         '''

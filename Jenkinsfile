@@ -23,11 +23,11 @@
         pipeline {
             agent any
             stages {
-                stage('Checkout') {
-                    steps {
-                        git 'https://www.github.com/mark-newcomb/Dev' // Replace with your repo URL
-                    }
-                }
+//                 stage('Checkout') {
+//                     steps {
+//                         git 'https://www.github.com/mark-newcomb/Dev' // Replace with your repo URL
+//                     }
+//                 }
                 stage('Build with PyBuilder') {
                     steps {
                         sh '''

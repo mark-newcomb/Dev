@@ -34,6 +34,7 @@
                             python3 -m venv pybuilder_env
                             source pybuilder_env/bin/activate
                             pip install pybuilder
+                            export PYTHONPATH=$PYTHONPATH:$(pwd)
                             pyb
                         '''
                     }
